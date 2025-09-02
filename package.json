@@ -57,6 +57,6 @@
       },
       "scripts": {
           "dev": "vite",
-          "build": "vite build"
+          "build": "node scripts/prebuild-crypto.js && vite build"
       }
   }
