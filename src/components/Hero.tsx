@@ -53,7 +53,7 @@ export function Hero({ onNavigateToBooking }: HeroProps) {
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-white/50 text-white hover:bg-white/10 backdrop-blur-sm text-lg px-8 py-4"
+              className="bg-transparent border-white/50 text-white hover:bg-white/10 backdrop-blur-sm text-lg px-8 py-4"
               onClick={() => document.getElementById('properties')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <Play className="w-5 h-5 mr-2" />
