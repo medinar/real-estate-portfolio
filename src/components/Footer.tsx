@@ -84,6 +84,24 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-xs text-primary-foreground/60 text-center">
           <p>California Real Estate License #12345678 | Equal Housing Opportunity</p>
           <p className="mt-2">This website is for informational purposes only. All property information is deemed reliable but not guaranteed.</p>
+          <div className="flex items-center justify-center mt-6 space-x-2">
+            {/* Building Icon SVG */}
+            <span className="inline-block align-middle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="7" width="18" height="13" rx="2" fill="#1976d2"/>
+                <rect x="7" y="11" width="2" height="2" fill="#fff"/>
+                <rect x="11" y="11" width="2" height="2" fill="#fff"/>
+                <rect x="15" y="11" width="2" height="2" fill="#fff"/>
+                <rect x="7" y="15" width="2" height="2" fill="#fff"/>
+                <rect x="11" y="15" width="2" height="2" fill="#fff"/>
+                <rect x="15" y="15" width="2" height="2" fill="#fff"/>
+                <rect x="9" y="3" width="6" height="4" rx="1" fill="#1976d2"/>
+              </svg>
+            </span>
+            <a href="https://site-foundry.netlify.app/" target="_blank" rel="noopener noreferrer" className="align-middle hover:underline">
+              Powered by: <strong>Site Foundry</strong>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
